@@ -5,7 +5,7 @@ const MainCon = () => {
   const [todo, setTodo] = useState("");
   const [todos, setTodos] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [showFinished, setShowFinished] = useState(true);
+  const [showFinished, setShowFinished] = useState(false);
 
   // Load todos from localStorage on mount
   useEffect(() => {
